@@ -7,9 +7,21 @@
 
 import Foundation
 
-extension Double {
-    func round(to places: Int) -> Double {
-        let divisor = pow(10.0, Double(places))
-        return (self * divisor).rounded() / divisor
+
+extension FruitEntity {
+    var wrappedName: String {
+        name ?? "Unknown"
+    }
+    
+    var wrappedOrder: String {
+        order ?? ""
+    }
+    
+    var wrappedGenus: String {
+        genus ?? ""
+    }
+    
+    var wrappedFamily: String {
+        family ?? ""
     }
 }

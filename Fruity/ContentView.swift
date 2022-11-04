@@ -12,11 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(vm.fruits) { fruit in
+            List(vm.fetchedFruits) { fruit in
                 NavigationLink {
                     FruitView(fruit: fruit)
                 } label: {
-                    Text(fruit.name)
+                    Text(fruit.wrappedName)
                 }
             }
             .navigationTitle("Fruity")

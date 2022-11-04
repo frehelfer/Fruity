@@ -15,6 +15,7 @@
 		0C5BBE0E2902232B00611513 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BBE0D2902232B00611513 /* FruitViewModel.swift */; };
 		0CFE2346291555D60024B07F /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFE2345291555D60024B07F /* FruitView.swift */; };
 		0CFE234829155B500024B07F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFE234729155B500024B07F /* Extensions.swift */; };
+		0CFE234B2915846A0024B07F /* FruityDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CFE23492915846A0024B07F /* FruityDataBase.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0C5BBE0D2902232B00611513 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		0CFE2345291555D60024B07F /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
 		0CFE234729155B500024B07F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0CFE234A2915846A0024B07F /* FruityDataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruityDataBase.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		0C5BBDFA290221D600611513 /* Fruity */ = {
 			isa = PBXGroup;
 			children = (
+				0CFE23492915846A0024B07F /* FruityDataBase.xcdatamodeld */,
 				0C5BBDFB290221D600611513 /* FruityApp.swift */,
 				0C5BBDFD290221D600611513 /* ContentView.swift */,
 				0CFE2345291555D60024B07F /* FruitView.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				0C5BBDFE290221D600611513 /* ContentView.swift in Sources */,
 				0CFE234829155B500024B07F /* Extensions.swift in Sources */,
+				0CFE234B2915846A0024B07F /* FruityDataBase.xcdatamodeld in Sources */,
 				0C5BBE0E2902232B00611513 /* FruitViewModel.swift in Sources */,
 				0C5BBE0B290221FE00611513 /* FruitModel.swift in Sources */,
 				0CFE2346291555D60024B07F /* FruitView.swift in Sources */,
@@ -369,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CFE23492915846A0024B07F /* FruityDataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CFE234A2915846A0024B07F /* FruityDataBase.xcdatamodel */,
+			);
+			currentVersion = 0CFE234A2915846A0024B07F /* FruityDataBase.xcdatamodel */;
+			path = FruityDataBase.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0C5BBDF0290221D600611513 /* Project object */;
 }
